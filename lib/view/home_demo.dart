@@ -83,6 +83,15 @@ class MyDrawer extends StatelessWidget {
                   backgroundImage: NetworkImage(
                       'https://avatars0.githubusercontent.com/u/17330382?s=180&v=4'),
                 ),
+                decoration: BoxDecoration(
+                  color: Colors.deepOrange,
+                  image: DecorationImage(
+                    image: NetworkImage('http://pic36.nipic.com/20131126/8821914_071759099000_2.jpg'),
+                    fit: BoxFit.fill,
+                    colorFilter: ColorFilter.mode(Colors.deepOrange.withOpacity(0.1), BlendMode.hardLight)
+                  ),
+
+                )
               ),
               ListTile(
                 title: Text(
