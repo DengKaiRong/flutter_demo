@@ -2,6 +2,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:hello/view/listview_demo.dart';
 import 'bottombar_demo.dart';
+import 'basic_demo.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -49,11 +50,7 @@ class Home extends StatelessWidget {
           body: TabBarView(
             children: <Widget>[
               ListViewDemo(),
-              Icon(
-                Icons.account_balance_wallet,
-                size: 128,
-                color: Colors.black12,
-              ),
+              Basic_demo(),
               Icon(
                 Icons.attach_money,
                 size: 128,
