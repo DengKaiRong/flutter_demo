@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hello/view/listview_demo.dart';
 import 'bottombar_demo.dart';
 import 'basic_demo.dart';
+import 'layout_demo.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -51,11 +52,12 @@ class Home extends StatelessWidget {
             children: <Widget>[
               ListViewDemo(),
               Basic_demo(),
-              Icon(
-                Icons.attach_money,
-                size: 128,
-                color: Colors.black12,
-              )
+              // Icon(
+              //   Icons.attach_money,
+              //   size: 128,
+              //   color: Colors.black12,
+              // )
+              LayoutDemo()
             ],
           ),
           drawer: MyDrawer(),
