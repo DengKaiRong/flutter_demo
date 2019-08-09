@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Basic_demo extends StatelessWidget {
+class BasicDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ContainerDemo();
@@ -71,10 +71,6 @@ class ContainerDemo extends StatelessWidget {
 }
 
 class RichTextDemo extends StatelessWidget {
-  final TextStyle _textStyle = TextStyle(
-    fontSize: 15,
-    fontWeight: FontWeight.bold,
-  );
 
   final String _title = '将进酒';
   final String _author = '李白';

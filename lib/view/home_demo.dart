@@ -51,7 +51,7 @@ class Home extends StatelessWidget {
           body: TabBarView(
             children: <Widget>[
               ListViewDemo(),
-              Basic_demo(),
+              BasicDemo(),
               // Icon(
               //   Icons.attach_money,
               //   size: 128,
